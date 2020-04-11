@@ -1,0 +1,28 @@
+//
+.screen-box {
+  position: relative;
+  display: block;
+  margin: 0 auto; 
+  overflow-x:hidden;
+  width:100%;	
+
+  .img-screen-box {
+  	max-width:100%;	
+  	border-radius:10px;
+  }
+}
+
+@media (min-width: 900px) {
+	.screen-box {
+		width: 72vw;
+	}
+}
+
+@media (min-width: 900px) {
+		.screenshot-container {
+		padding-right: 0; 
+		margin-right:0;
+		overflow:hidden;
+	}
+}
+
